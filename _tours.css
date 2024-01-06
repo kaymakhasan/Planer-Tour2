@@ -1,0 +1,35 @@
+.tours {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 15px 30px;
+}
+.tours-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  margin-right: 5px;
+  gap: 20px;
+}
+.tours-left p {
+  width: 50%;
+}
+.tours-right {
+  width: 510px;
+  margin-top: 10px;
+  margin-right: 200px;
+}
+.tours-right-gallery img {
+  width: 250px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.tours-right-gallery img:hover {
+  opacity: 0.5;
+  transition: 0.4s;
+}/*# sourceMappingURL=_tours.css.map */
